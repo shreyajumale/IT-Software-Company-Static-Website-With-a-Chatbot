@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #0a3d62;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    display: none;
+    padding: 40px;
+}
+
+section.active {
+    display: block;
+}
+
+/* Home */
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #1e90ff;
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.services div {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+}
+
+/* Chatbot */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 260px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+#chat-header {
+    background: #1e90ff;
+    color: white;
+    padding: 10px;
+}
+
+#chat-body {
+    height: 200px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#userInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
