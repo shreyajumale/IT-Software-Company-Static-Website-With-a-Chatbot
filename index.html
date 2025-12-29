@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Xtrazcon | Software Solutions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Xtrazcon</h1>
+  <nav>
+    <a onclick="showPage('home')">Home</a>
+    <a onclick="showPage('about')">About</a>
+    <a onclick="showPage('contact')">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="active">
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>We Build Smart Software Solutions</h2>
+      <p>
+        Xtrazcon is a leading IT software company delivering
+        high-quality web, mobile, and cloud-based solutions
+        to help businesses grow in the digital world.
+      </p>
+      <button onclick="showPage('contact')">Get Started</button>
+    </div>
+
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="IT Team">
+    </div>
+  </div>
+
+  <div class="intro">
+    <h3>Who We Are</h3>
+    <p>
+      At Xtrazcon, we specialize in developing secure, scalable,
+      and innovative software solutions using modern technologies.<br>
+      Our expert team focuses on customer satisfaction, performance,
+      and reliability.
+    </p>
+  </div>
+
+  <br> 
+
+  <h3 class="section-title">Our Services</h3>
+  <div class="services">
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2282/2282188.png">
+      <h4>Web Development</h4>
+      <p>Responsive and dynamic websites using HTML, CSS, JavaScript.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+      <h4>Mobile Applications</h4>
+      <p>Android and iOS applications with modern UI and smooth UX.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4149/4149678.png">
+      <h4>Cloud Solutions</h4>
+      <p>Cloud deployment, hosting, and scalable infrastructure.</p>
+    </div>
+
+  </div>
+
+  <div class="stats">
+    <div>
+      <h2>150+</h2>
+      <p>Projects Completed</p>
+    </div>
+    <div>
+      <h2>50+</h2>
+      <p>Happy Clients</p>
+    </div>
+    <div>
+      <h2>10+</h2>
+      <p>Years Experience</p>
+    </div>
+    <div>
+      <h2>24/7</h2>
+      <p>Support</p>
+    </div>
+  </div>
+
+  <div class="why-us">
+    <h3>Why Choose Xtrazcon?</h3>
+    <ul>
+      <li>✔ Skilled and experienced developers</li>
+      <li>✔ Latest technologies and tools</li>
+      <li>✔ Secure and scalable solutions</li>
+      <li>✔ Affordable pricing and timely delivery</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+
+  <h2>About Xtrazcon</h2>
+
+  <p class="about-text">
+    Xtrazcon is a technology-driven IT software company specializing in
+    building secure, scalable, and high-performance digital solutions.
+    We help startups, small businesses, and enterprises transform their
+    ideas into powerful software products using modern technologies.
+  </p>
+
+  <div class="about-block">
+
+    <div class="about-card">
+      <h3>Our Mission</h3>
+      <p>
+        Our mission is to deliver reliable, innovative, and cost-effective
+        software solutions that improve business efficiency and digital growth.
+        We focus on quality, security, and long-term client satisfaction.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>Our Vision</h3>
+      <p>
+        Our vision is to become a trusted global IT service provider by
+        delivering cutting-edge technology solutions and maintaining
+        excellence in customer service and innovation.
+      </p>
+    </div>
+
+  </div>
+
+  <h3 class="section-title">Technologies We Use</h3>
+  <p class="about-text">
+    At Xtrazcon, we use industry-standard tools and technologies to
+    develop modern and scalable software solutions.
+  </p>
+
+  <ul class="tech-list">
+    <li>✔ Frontend: HTML, CSS, JavaScript, React</li>
+    <li>✔ Backend: Node.js, Express.js</li>
+    <li>✔ Database: MongoDB, MySQL</li>
+    <li>✔ Cloud & DevOps: AWS, Docker, Git</li>
+  </ul>
+
+  <h3 class="section-title">Our Development Process</h3>
+  <p class="about-text">
+    We follow a structured and agile development approach to ensure
+    transparency, efficiency, and timely delivery.
+  </p>
+
+  <ol class="process-list">
+    <li>Requirement Analysis & Planning</li>
+    <li>UI/UX Design & Prototyping</li>
+    <li>Development & Implementation</li>
+    <li>Testing & Quality Assurance</li>
+    <li>Deployment & Maintenance</li>
+  </ol>
+
+  <h3 class="section-title">Our Core Values</h3>
+  <ul class="values-list">
+    <li>✔ Customer Satisfaction</li>
+    <li>✔ Innovation & Creativity</li>
+    <li>✔ Quality & Security</li>
+    <li>✔ Transparency & Trust</li>
+  </ul>
+
+  <h3 class="section-title">Industries We Serve</h3>
+  <p class="about-text">
+    We deliver software solutions across multiple industries including
+    education, healthcare, finance, e-commerce, and enterprise services.
+  </p>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+
+  <h2>Contact Xtrazcon</h2>
+
+  <p class="contact-intro">
+    Have a project in mind or need technical assistance?
+    Get in touch with Xtrazcon and our team will respond
+    within 24 hours.
+  </p>
+
+  <div class="contact-container">
+
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit Message</button>
+      </form>
+    </div>
+
+    <div class="contact-details">
+      <h3>Contact Information</h3>
+
+      <p><strong>Email:</strong> info@xtrazcon.com</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Office Address:</strong><br>
+      XTRAZCON TECHNOLOGY PVT. LTD.<br>
+      Fl No C9, Atharva Residency,<br>
+      S. No. 83/3, Near Kapil Complex,<br>
+      Baner Gaon, Pune, Haveli,<br>
+      Maharashtra, India – 411045
+      </p>
+
+
+      <h4>Business Hours</h4>
+      <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+      <p>Saturday: 9:00 AM – 1:00 PM</p>
+      <p>Sunday: Closed</p>
+
+      <h4>Support</h4>
+      <p>
+        For technical support and queries,<br> please email us
+        at <strong>support@xtrazcon.com</strong>
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= CHATBOT ================= -->
+<div id="chatbot">
+  <div id="chat-header">💬 Xtrazcon Assistant</div>
+  <div id="chat-body"></div>
+  <input id="userInput" placeholder="Ask something..." />
+</div>
+
+<script>
+function showPage(pageId) {
+  document.querySelectorAll("section").forEach(sec =>
+    sec.classList.remove("active")
+  );
+  document.getElementById(pageId).classList.add("active");
+}
+
+const chatBody = document.getElementById("chat-body");
+const userInput = document.getElementById("userInput");
+
+userInput.addEventListener("keypress", async e => {
+  if (e.key === "Enter") {
+    const msg = userInput.value.trim();
+    if (!msg) return;
+
+    chatBody.innerHTML += `<p><b>You:</b> ${msg}</p>`;
+    userInput.value = "";
+
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ message: msg })
+    });
+
+    const data = await res.json();
+    chatBody.innerHTML += `<p><b>Bot:</b> ${data.reply}</p>`;
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+});
+</script>
+
+</body>
+</html>
